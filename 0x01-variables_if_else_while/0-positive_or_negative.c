@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <time.h>
+#include<stdlib.h>
 
 /**
  * main - Entry point
@@ -23,3 +25,27 @@ int main(void)
 
 	return (0);
 }
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+	
+		
+	
+		
+	
+	
+
+	
+
