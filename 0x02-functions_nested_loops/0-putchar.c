@@ -14,8 +14,8 @@ int main(void)
 	int y;
 
 	for (y = 0; y < 8; y++)
-		_putchar (x[x]);
-	_putchar('\n');
+        	_putchar(x[y]);  
+        _putchar('\n');
 
 	return (0);
 }
