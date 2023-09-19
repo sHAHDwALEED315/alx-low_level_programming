@@ -1,39 +1,28 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
- * main 
- *
- * Description: Write a program that prints all possible
- * different combinations of two digits.
- * 01 and 10 are considered the same combination of the two digits 0 and 1.
- *
- * Return: 0
+ * main - prints all possible different combinations of two digits
+ * Return: ALways 0 (Success)
  */
 int main(void)
 {
-	int c;
-	int d = 0;
+	int n, m;
 
-	while (d < 10)
+	for (n = 48; n <= 56; n++)
 	{
-		c = 0;
-		while (c < 10)
+		for (m = 49; m <= 57; m++)
 		{
-			if (d != c && d < c)
+			if (m > n)
 			{
-				putchar('0' + d);
-				putchar('0' + c);
-
-				if (c + d != 17)
+				putchar(n);
+				putchar(m);
+				if (n != 56 || m != 57)
 				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
-
-			c++;
 		}
-		d++;
 	}
 	putchar('\n');
 	return (0);
