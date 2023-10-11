@@ -3,7 +3,7 @@
 /**
  * main : a function that prints a string in reverse
  *
- * Return : void
+ *  @s : pointer to string
  */
 
 void _print_rev_recursion(char *s);
