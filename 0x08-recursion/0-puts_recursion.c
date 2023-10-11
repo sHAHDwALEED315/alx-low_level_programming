@@ -1,10 +1,9 @@
 #include "main.h"
-#include "_putchar.h"
 
 /**
  * _puts_recursion : a function that prints a string, followed by a new line.
  * @s : pointer to char.
- * return: Recursion. 
+ * return : Recursion. 
  */
 
 
