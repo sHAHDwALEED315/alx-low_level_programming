@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main : a function that prints a string in reverse
+ * _print_rev_recursion - reverse
+ * @s: pointer to string params
  *
- *  @s : pointer to string
  */
 
 void _print_rev_recursion(char *s)
